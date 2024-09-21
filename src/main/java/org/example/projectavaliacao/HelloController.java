@@ -33,7 +33,7 @@ public class HelloController {
     private TextArea txtDados;
 
     @FXML
-    private TextField txtDepositarSacar;
+    private TextField txtValor;
 
     @FXML
     private TextField txtLimite;

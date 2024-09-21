@@ -53,8 +53,8 @@ public class Conta {
     @Override
     public String toString() {
         return
-                "numero=" + numero +
-                ", titular='" + titular + '\'' +
-                ", saldo=" + saldo + System.lineSeparator();
+                "numero=" + this.getNumero() +
+                ", titular='" + this.getTitular() + '\'' +
+                ", saldo=" + this.getSaldo() + System.lineSeparator();
     }
 }

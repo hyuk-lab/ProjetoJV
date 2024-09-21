@@ -51,15 +51,15 @@
                   <Font size="20.0" />
                </font>
                <toggleGroup>
-                  <ToggleGroup fx:id="brabo" />
+                  <ToggleGroup fx:id="grpTipo" />
                </toggleGroup>
             </RadioButton>
-            <RadioButton fx:id="rbEspecial" layoutX="335.0" layoutY="38.0" mnemonicParsing="false" onAction="#onSelecionarTipo" onMouseClicked="#onSelecionarTipo" text="Especial" toggleGroup="$brabo">
+            <RadioButton fx:id="rbEspecial" layoutX="335.0" layoutY="38.0" mnemonicParsing="false" onAction="#onSelecionarTipo" onMouseClicked="#onSelecionarTipo" text="Especial" toggleGroup="$grpTipo">
                <font>
                   <Font size="20.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="rbPoupanca" layoutX="389.0" layoutY="38.0" mnemonicParsing="false" onAction="#onSelecionarTipo" onMouseClicked="#onSelecionarTipo" text="Poupança" toggleGroup="$brabo">
+            <RadioButton fx:id="rbPoupanca" layoutX="389.0" layoutY="38.0" mnemonicParsing="false" onAction="#onSelecionarTipo" onMouseClicked="#onSelecionarTipo" text="Poupança" toggleGroup="$grpTipo">
                <font>
                   <Font size="20.0" />
                </font>
@@ -90,7 +90,7 @@
             </TextField>
          </children>
       </VBox>
-      <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="731.0" text="Cadastrar">
+      <Button mnemonicParsing="false" onAction="#onCadastrarConta" prefHeight="44.0" prefWidth="731.0" text="Cadastrar">
          <VBox.margin>
             <Insets />
          </VBox.margin>
@@ -105,7 +105,7 @@
                   <Font size="20.0" />
                </font>
             </Button>
-            <TextField fx:id="txtDepositarSacar" prefHeight="44.0" prefWidth="513.0">
+            <TextField fx:id="txtValor" prefHeight="44.0" prefWidth="513.0">
                <font>
                   <Font size="20.0" />
                </font>
